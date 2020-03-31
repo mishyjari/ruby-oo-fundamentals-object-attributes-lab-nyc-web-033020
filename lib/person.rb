@@ -3,5 +3,10 @@ class Person
     @name = name
     @job = job
   end
-  attr_accessor :name, :job
+  def name=(name)
+    @name = name
+  end
+  def name
+    @name
+  end
 end
